@@ -3,32 +3,11 @@
 	<head>
 		<title>Phishy home page</title>
 		<meta charset="UTF-8">
-		<style type="text/css">
-			#blueDiv{
-				background-color: blue;
-				max-width:300px;
-				min-width:300px;
-				margin-right: auto;
-				margin-left: auto;
-			}
-			body{
-				background-color: #97FFFF;
-			}
-		</style>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./jquery.mobile-1.4.3/jquery.mobile-1.4.3.min.css"/>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$("#blueDiv").click(function(){
-					var backgroundColor = $("#blueDiv").css('background-color');
-					if(backgroundColor == 'rgb(0, 0, 255)'){
-						$("#blueDiv").css('background-color','red');
-					}else{
-						$("#blueDiv").css('background-color','blue');
-					}
-				});
-			});
-		</script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="./javascript/index.js"></script>
 	</head>
 	<body>
 		<div data-role="page">
