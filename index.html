@@ -9,20 +9,23 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
 		<script type="text/javascript" src="./javascript/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
 	</head>
 	<body>
 		<div data-role="page">
 			<div data-role="header">
-				<h1>This is an example header</h1>
+				<h1>PHISHER</h1>
 			</div>
-			<ol>
-				<li>List item one</li>
-				<li>List item two</li>
-				<li>Click <a href="google.com" target="_blank">here</a> to go to the Google home page</li>
-				<li><img src="http://critterbabies.com/wp-content/uploads/2013/11/kittens.jpg" height="300px" width="500px"></li>
-			</ol>
-			<div id="blueDiv">
-				&nbsp;
+			<div data-role="content">
+				<div style="float:right;"><a href="./settings.html" class="ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all">No text</a></div>
+				<div id="container">
+					<div>
+						<a href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0"><img src="./images/g+.png"class="options"></a>
+						<a href="https://m.facebook.com/login"><img src="./images/facebook.png"class="options"></a>
+						<a href="https://m.twitter.com/login"><img src="./images/twitter.png"class="options"></a>
+					</div>
+					<div style="text-align:center;"><img src="./images/skip.png"id="skip"></div>
+				</div>
 			</div>
 		</div>
 	</body>
