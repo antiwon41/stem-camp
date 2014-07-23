@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Phishy home page</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			#blueDiv{
+				background-color: blue;
+				max-width:300px;
+				min-width:300px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			body{
+				background-color: #97FFFF;
+			}
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="./jquery.mobile-1.4.3/jquery.mobile-1.4.3.min.css"/>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#blueDiv").click(function(){
+					var backgroundColor = $("#blueDiv").css('background-color');
+					if(backgroundColor == 'rgb(0, 0, 255)'){
+						$("#blueDiv").css('background-color','red');
+					}else{
+						$("#blueDiv").css('background-color','blue');
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div data-role="page">
+			<div data-role="header">
+				<h1>This is an example header</h1>
+			</div>
+			<ol>
+				<li>List item one</li>
+				<li>List item two</li>
+				<li>Click <a href="google.com" target="_blank">here</a> to go to the Google home page</li>
+				<li><img src="http://critterbabies.com/wp-content/uploads/2013/11/kittens.jpg" height="300px" width="500px"></li>
+			</ol>
+			<div id="blueDiv">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>
