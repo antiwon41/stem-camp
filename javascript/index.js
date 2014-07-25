@@ -1,10 +1,11 @@
 $(document).ready(function(){
-	$("#blueDiv").click(function(){
-		var backgroundColor = $("#blueDiv").css('background-color');
-		if(backgroundColor == 'rgb(0, 0, 255)'){
-			$("#blueDiv").css('background-color','red');
-		}else{
-			$("#blueDiv").css('background-color','blue');
-		}
+	$("#skip").click(function(){
+		window.location.href = "skip.html";
+	});
+	$("#btn").click(function(){
+		window.location.href = "attach.html";
+	});
+	$("#btn2").click(function(){
+		window.location.href = "link.html";
 	});
 });
