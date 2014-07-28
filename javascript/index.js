@@ -8,4 +8,7 @@ $(document).ready(function(){
 	$("#btn2").click(function(){
 		window.location.href = "link.html";
 	});
+	$("#search-2").click(function(){
+		window.location.href = "";
+	});
 });
