@@ -11,6 +11,8 @@ body{
     background-position:center center;
     background-attachment:scroll;
     background-size:100% 100%;
+    max-width:480px;
+    max-height: 800px;
 }.ui-page {
     background: transparent;
 }
@@ -31,10 +33,6 @@ body{
 #skip{
 	margin-right:auto;
 	margin-left:auto;
-	max-width:150px;
-	min-width:150px;
-	max-height:49px;
-	min-height:49px;
 }
 #container{
 	position:absolute;
