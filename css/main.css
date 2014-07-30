@@ -41,3 +41,14 @@ body{
 	bottom:0px;
 	left:0px;
 }
+#AttachAndLinkContainer{
+	margin-top:50%;
+}
+.center-wrapper{
+	margin-bottom:6%;
+}
+#AttachAndLinkContainer button{
+	opacity:0.6;
+	color:#007593;
+	text-decoration:none;
+}
