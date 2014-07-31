@@ -18,9 +18,17 @@
 			<div class="ui-content" data-role="content">
 				<div style="float:right;"><a href="./settings.html" class="ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all"></a>
 				</div>
+				<div id="wording">
 				<h1> Attach a file using bar below </h1>
-				<label for="search-basic">File Name (jpg or png files only):</label>
-				<input type="search" name="search" id="search-basic" value="" />
+				<label for="search-basic"><strong>File Name (jpg files only):<strong></label></div>
+				<form>
+<div class="ui-field-contain">
+    <label for="select-native-1">Basic:</label>
+    <select name="select-native-1" id="select-native-1">
+        <option value="1">Choose Image</option>
+    </select>
+</div>
+</form>
 				<input type="submit" value="Search" />
 				<div style="float:left;"><a href="./skip.html" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
 				</div>
